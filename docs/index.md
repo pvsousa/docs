@@ -86,3 +86,15 @@ git clone [https://github.com/YOUR-USERNAME/YOUR-REPO.git](https://github.com/YO
 cd YOUR-REPO
 pip install -r requirements.txt
 python main.py --run
+
+## Diagram example
+
+```mermaid
+graph TD
+    A[Client Request] --> B[API Gateway]
+    B --> C{Authenticated?}
+    C -->|Yes| D[Microservice]
+    C -->|No| E[401 Unauthorized]
+```
+
+
