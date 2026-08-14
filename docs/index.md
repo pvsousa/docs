@@ -13,8 +13,6 @@ Welcome to the official technical documentation. Here you will find comprehensiv
 
 ## Quick Navigation
 
-<div class="grid cards" markdown>
-
 -   :material-rocket-launch:{ .lg .middle } **Getting Started**
 
     ---
@@ -46,8 +44,6 @@ Welcome to the official technical documentation. Here you will find comprehensiv
     Find answers to common issues, error codes, and frequently asked questions.
 
     [:octicons-arrow-right-24: Get Help](faq.md)
-
-</div>
 
 ---
 
@@ -86,6 +82,7 @@ git clone [https://github.com/YOUR-USERNAME/YOUR-REPO.git](https://github.com/YO
 cd YOUR-REPO
 pip install -r requirements.txt
 python main.py --run
+```
 
 ## Diagram example
 
