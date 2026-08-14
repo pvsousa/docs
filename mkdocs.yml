@@ -1,0 +1,30 @@
+site_name: My Tech Docs
+site_url: https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - About: about.md
